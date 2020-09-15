@@ -45,10 +45,11 @@ public class Searches {
     }
 
     public Fraction findFractionMultiplicationByUserFamilyName(String familyName) {
+        return new Fraction();/*
         return new UsersDatabase().findAll()
                 .filter(user -> user.getFamilyName().equals(familyName))
                 .map(user -> user.getFractions())
-                .flatMap(fractions -> fractions.stream());
+                .flatMap(fractions -> fractions.stream());*/
     }
 
     public Fraction findFirstFractionDivisionByUserId(String id) {
