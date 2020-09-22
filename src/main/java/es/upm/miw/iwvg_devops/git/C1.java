@@ -5,7 +5,7 @@ public class C1 {
     return "m1";
   }
 
-  public boolean isSevenmanADumb() {
+  public boolean isSevenman() {
     return true;
   }
 }
